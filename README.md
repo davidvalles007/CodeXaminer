@@ -6,22 +6,23 @@ This script extracts changed code or in-scope files from codebase and then run c
 * cloc (http://cloc.sourceforge.net/)<br />
 
 #### Usage:<br />
-_D:\Code\Python_programs>codeXaminer.py -h
-_usage: codeXaminer.py [-h]
-                      _sourcePath destinationPath changedFileList clocPath
-                      _projectName
-
-_positional arguments:
-  _sourcePath       _Enter local path where codebase is located
-  _destinationPath  _Enter local path where changed code or in-scope files will
-                   _be saved
-  _changedFileList  _Enter local path of the file containing list of changed
-                   _code or in-scope files
-  _clocPath         _Enter local path of the cloc utility
-  _projectName      _Enter a unique project code or name_
-
-_optional arguments:
-  _-h, --help       show this help message and exit
+_D:\Code\Python_programs>codeXaminer.py_ _-h_<br />
+_usage:_ _codeXaminer.py_ _[-h]_<br />
+                      _sourcePath_<br />
+                      _destinationPath_<br />
+                      _changedFileList_<br />
+                      _clocPath_<br />
+                      _projectName_<br />
+<br />
+_positional arguments:_<br />
+  _sourcePath_      ->   _Enter local path where codebase is located_<br />
+  _destinationPath_ ->   _Enter local path where changed code or in-scope files will be saved_<br />
+  _changedFileList_  ->  _Enter local path of the file containing list of changed code or in-scope files_<br />
+  _clocPath_      ->     _Enter local path of the cloc utility_<br />
+  _projectName_   ->     _Enter a unique project code or name_<br />
+<br />
+_optional arguments:_<br />
+  _-h, --help_       _show this help message and exit_<br />
   <br />
 
 I developed it to help my colleagues who do code review. This helped us to channel our saved time and effort at code analysis on tight time constraint projects with huge codebase.<br />
